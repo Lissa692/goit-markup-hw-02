@@ -32,7 +32,7 @@ body {
 .header-navigation {}
 /*____________________LOGO____________ */
 .header-logo {
-    font-family: "Raleway";
+    font-family: "Raleway",sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -40,7 +40,7 @@ body {
     text-transform: uppercase;
     color:var(--primary-brand);}
     .header-logo-part{
-        font-family: "Raleway";
+        font-family: "Raleway",sans-serif;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
@@ -69,14 +69,14 @@ body {
 
 .header-address {}
 .header-address-items{}
-.address-link{}
+.address-link{font-style: normal;}
 .header-contacts{
     font-style: normal;
     font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color:var(--text)}
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--text)}
 .header-contacts:hover,
 .header-contacts:focus { color:var(--pressed-state)}
 
@@ -104,7 +104,7 @@ body {
     background-color: var(--primary-brand);
     cursor: pointer;}
 .first-btn:focus,
-.first-btn:hover {color: var(--pressed-state);
+.first-btn:hover {background-color: var(--pressed-state); color: var(--pressed-state);
 }
 /*____________________MAIN SECTION_2____________ */
 .second-section {}
@@ -200,15 +200,15 @@ body {
         }
     
         .footer-logo {
-            font-family: 'Raleway';
+            font-family: 'Raleway',sans-serif;
             font-weight: 800;
             font-size: 18px;
-            line-height: 1.7;
+            line-height: 1.17;
             letter-spacing: 0.03em;
             text-transform: uppercase;
-            color: var(--pressed-state);}
+            color: var(--primary-brand);}
     
-        .footer-logo-part {font-family: 'Raleway';
+        .footer-logo-part {font-family: 'Raleway'sans-serif;
             font-weight: 800;
             font-size: 18px;
             line-height: 1.7;
