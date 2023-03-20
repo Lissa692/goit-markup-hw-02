@@ -103,7 +103,7 @@ body {
     background-color: var(--primary-brand);
     cursor: pointer;}
 .first-btn:focus,
-.first-btn:hover {background-color: var(--pressed-state); color: var(--pressed-state);
+.first-btn:hover {background-color: var(--pressed-state);
 }
 /*____________________MAIN SECTION_2____________ */
 .second-section {}
@@ -177,8 +177,7 @@ body {
 .list-btn:hover{color:var(--white-background); background-color:var(--pressed-state);}
 /*____________________aside____________ */
 .aside {}
-.aside-list {
-    background-color: var(--accent);}
+.aside-list {}
 .aside-title {
     font-weight: 500;
     font-size: 20px;
